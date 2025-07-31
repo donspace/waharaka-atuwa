@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 public
-dist
+dist/assets/audio
 dist-ssr
 *.local
 
