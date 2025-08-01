@@ -67,7 +67,6 @@ export const audios = {
     },
     anichcha_visthara: {
         src: "https://waharaka-atuwa.sgp1.cdn.digitaloceanspaces.com/audios/anichcha_visthara-CD094-01-S00-00-00-E01-50-20.mp3",
-        //https://waharaka-atuwa.sgp1.cdn.digitaloceanspaces.com/audios/anichcha_visthara-CD094-01-S00-00-00-E01-50-20.mp3
         sinhalaCaption: "අනිච්ච විස්තර දේසනා",
         paliCaption: "අනිච්ච විස්තර දේසනා",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD094/[01]Anichcha Vatahagena Nivan Dakina Akaraya.mp3"
