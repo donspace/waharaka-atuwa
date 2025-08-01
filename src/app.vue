@@ -49,7 +49,8 @@ import AudioPlayer from './components/AudioPlayer.vue'
 import library from './data/library.json'
 import libraryAbhidamma from './data/library-abhidamma.json'
 import libraryUpadesa from './data/library-upadesa.json'
-import { audios } from './data/audios'
+import audios from './data/audios.json'
+//import audios from 'https://waharaka-atuwa.sgp1.cdn.digitaloceanspaces.com/data-sets/audios.json'
 import { buildMenuOptions, buildMenuOptions2 } from './functions/buildMenuOptions'
 
 const selectedAudio = ref({ title: '', src: '', fullSrc: '', paliTitle: '' })
