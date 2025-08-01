@@ -43,15 +43,18 @@
 </template>
 
 <script setup>
-import { ref, h } from 'vue'
+import { ref, h, onMounted } from 'vue'
 import { NMenu, NConfigProvider } from 'naive-ui'
 import AudioPlayer from './components/AudioPlayer.vue'
 import library from './data/library.json'
 import libraryAbhidamma from './data/library-abhidamma.json'
 import libraryUpadesa from './data/library-upadesa.json'
-import audios from './data/audios.json'
-//import audios from 'https://waharaka-atuwa.sgp1.cdn.digitaloceanspaces.com/data-sets/audios.json'
+import { audios } from './data/audios.js'
+//import audios from 'https://raw.githubusercontent.com/donspace/waharaka-atuwa/641ab6565ae8a786d03891d2d7bc09c22cf2af57/src/data/audios.json'
 import { buildMenuOptions, buildMenuOptions2 } from './functions/buildMenuOptions'
+
+
+
 
 const selectedAudio = ref({ title: '', src: '', fullSrc: '', paliTitle: '' })
 
