@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
     "@vicons/ionicons5": "^0.13.0",
     "naive-ui": "^2.42.0",
     "vfonts": "^0.0.3",

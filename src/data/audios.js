@@ -79,7 +79,60 @@ export const audios = {
         sinhalaCaption: "දුකට හේතුව හා දුක්ඛ නිරෝධය",
         paliCaption: "දුක්ඛය සමුදය දුක්ඛ නිරෝධය",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD042/[C4]ANICHCHA DUKKA WANA HETI 4-4-2009.mp3"
+    },
+
+    duka_dukka_sathya: {
+        src: "CD106/CD090/duka_dukka_sathya-CD090-16-S00-00-21-E00-01-19.MP3",
+        sinhalaCaption: "දුක්ඛය දුක්ඛ සත්‍ය",
+        paliCaption: "දුක්ඛ දුක්ඛසච්ච",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/15_Dukka%20Aarya%20Sathya%20Vigrahaya.mp3"
+    },
+
+    dukka_yamakaya: {
+        src: "CD106/CD090/dukka_yamakaya-CD090-16-S00-01-19-E00-03-12.MP3",
+        sinhalaCaption: "සච්ච යමකය",
+        paliCaption: "සච්ච යමකය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/15_Dukka%20Aarya%20Sathya%20Vigrahaya.mp3"
+    },
+    sathya_kruthya_knana: {
+        src: "CD106/CD090/sathya_kruthya_knana-CD090-16-S00-03-19-E00-12-24.MP3",
+        sinhalaCaption: "සත්‍ය ඤාණය සහ කෘත්‍ය ඤාණය",
+        paliCaption: "සච්ච ඤාණ කිච්ච ඤාණ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/15_Dukka%20Aarya%20Sathya%20Vigrahaya.mp3"
+    },
+
+    samma_knana: {
+        src: "CD106/CD090/samma_knana-CD090-16-S00-10-30-E00-12-24.MP3",
+        sinhalaCaption: "සම්මා ඤාණ",
+        paliCaption: "සම්මා ඤාණ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/15_Dukka%20Aarya%20Sathya%20Vigrahaya.mp3"
+    },
+
+    //new
+    damma_jatha: {
+        src: "CD106/CD082/damma_jatha-CD082-34-S00-00-00-E00-06-08.MP3",
+        sinhalaCaption: "ධම්ම ජාත",
+        paliCaption: "ධම්ම ජාත",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD082/[34]Anichchathavaya Prayogika  Jeevithayata Yodaganna Akaraya.mp3"
+    },
+
+    maanasika_peleema_avidyawa: {
+        src: "CD106/CD090/maanasika_peleema_avidyawa-CD090-07-S00-00-09-E00-34-55.MP3",
+        sinhalaCaption: "මානසික පෙලීම හා අවිද්‍යාව",
+        paliCaption: "මනෝසම්පීළන අවිජ්ජා",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/06_Anichcha Vatahaaganimata.mp3"
+    },
+
+    mula_mada_aga_dharmaya: {
+        src: "CD106/CD090/mula_mada_aga_dharmaya-CD090-07-S00-33-03-E00-48-00.MP3",
+        sinhalaCaption: "මුල මැද අග ධර්මය",
+        paliCaption: "මුල මැද අග ධර්මය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/06_Anichcha Vatahaaganimata.mp3"
     }
+
+
+
+
 
 
 }
