@@ -49,7 +49,10 @@ import AudioPlayer from './components/AudioPlayer.vue'
 import library from './data/library.json'
 import libraryAbhidamma from './data/library-abhidamma.json'
 import libraryUpadesa from './data/library-upadesa.json'
+
 import { audios } from './data/audios.js'
+
+
 //import audios from 'https://raw.githubusercontent.com/donspace/waharaka-atuwa/641ab6565ae8a786d03891d2d7bc09c22cf2af57/src/data/audios.json'
 import { buildMenuOptions, buildMenuOptions2 } from './functions/buildMenuOptions'
 
@@ -64,7 +67,7 @@ function handleSelect(key) {
         selectedAudio.value = {
             title: audios[item.value].sinhalaCaption,
             paliTitle: audios[item.value].paliCaption,
-            src: audios[item.value].src,
+            src: audios.baseUrl + audios[item.value].src,
             fullSrc: audios[item.value].fullAudioSrc,
             audiMeta: generateAudiMeta(audios[item.value].src)
         }
@@ -75,19 +78,11 @@ function handleSelect(key) {
 
 function generateAudiMeta(src) {
 
-    // const audiMeta = {
-    //     audiName: src.split("/")[3],
-    //     cdNumber: Number(src.split("/")[3].split("-")[1].slice(-3)),
-    //     audiNumber: Number(src.split("/")[3].split("-")[2])
-    // }
-
     const audiMeta = {
-        audiName: "Name",
-        cdNumber: 10,
-        audiNumber: 5
+        audiName: src.split("/")[2],
+        cdNumber: Number(src.split("/")[2].split("-")[1].slice(-3)),
+        audiNumber: Number(src.split("/")[2].split("-")[2])
     }
-
-
 
     console.log(">>>AUDI META >>>>", audiMeta);
 
