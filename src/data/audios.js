@@ -108,7 +108,6 @@ export const audios = {
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/15_Dukka%20Aarya%20Sathya%20Vigrahaya.mp3"
     },
 
-    //new
     damma_jatha: {
         src: "CD106/CD082/damma_jatha-CD082-34-S00-00-00-E00-06-08.MP3",
         sinhalaCaption: "ධම්ම ජාත",
@@ -128,7 +127,58 @@ export const audios = {
         sinhalaCaption: "මුල මැද අග ධර්මය",
         paliCaption: "මුල මැද අග ධර්මය",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/06_Anichcha Vatahaaganimata.mp3"
+    },
+
+    //new
+    hethu_bhanga: {
+        src: "CD106/CD048/hethu_bhanga-CD048-31-S00-00-00-E00-16-27.MP3",
+        sinhalaCaption: "හේතු පටිච්ච සම්භූත",
+        paliCaption: "හේතු පටිච්ච සම්භූත",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD048/[G9]ANICHCHA%20WIGGRAYA-26-9-2009.mp3"
+    },
+
+    dammachakka_thilakkana: {
+        src: "CD106/CD027/dammachakka_thilakkana-CD027-21-S00-01-29-E00-18-02.MP3",
+        sinhalaCaption: "දම්චක්ක සූත්‍රයේ තිලකුණු",
+        paliCaption: "ධම්මචක්ක තිලක්ඛණ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD027/[S]-2007-12-8 Darma Desana[3] ANICHCHA WIGGRAYA-edit.mp3"
     }
+    ,
+    asara_pada: {
+        src: "CD106/CD027/asara_pada-CD027-21-S00-07-48-E00-12-38.MP3",
+        sinhalaCaption: "අසාර පදය",
+        paliCaption: "අසාර අනත්ත",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD027/[S]-2007-12-8 Darma Desana[3] ANICHCHA WIGGRAYA-edit.mp3"
+    },
+
+    jathi_jara_marana_duka: {
+        src: "CD106/CD027/jathi_jara_marana_duka-CD027-21-S00-12-08-E00-16-19.MP3",
+        sinhalaCaption: "ජාති ජරා මරණ දුක්ඛය",
+        paliCaption: "ජාති ජරා මරණ දුක්ඛ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD027/[S]-2007-12-8 Darma Desana[3] ANICHCHA WIGGRAYA-edit.mp3"
+    }
+
+    ,
+
+    ichcha_ichchha_anichcha_anichchha: {
+        src: "CD106/CD070/ichcha_ichchha_anichcha_anichchha-CD070-15-S00-00-09-E00-02-33.MP3",
+        sinhalaCaption: "අනිච්ඡ අනිච්ච නිරුක්ති",
+        paliCaption: "අනිච්ඡ අනිච්ච නිරුත්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD070/[B6]BAHIRA%20ANICHCHA%20SUTHTHRAYA%20PAHEDILI%20KIREMA%2018-6-2011.mp3"
+    }
+    ,
+    bahiranichcha_suthra_vivarana: {
+        src: "CD106/CD070/bahiranichcha_suthra_vivarana-CD070-15-S00-02-34-E00-11-12.MP3",
+        sinhalaCaption: "බාහිරානිච්ච සූත්‍ර පටිනිද්දේස",
+        paliCaption: "බාහිරානිච්ච සූත්‍ර පටිනිද්දේස",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD070/[B6]BAHIRA%20ANICHCHA%20SUTHTHRAYA%20PAHEDILI%20KIREMA%2018-6-2011.mp3"
+    }
+
+
+
+
+
+
 
 
 
