@@ -2,15 +2,29 @@
     <div v-if="audioSrc">
         <h2 style="margin-bottom: 0px;">{{ audioTitle }}</h2>
         <small style="color: gray;">{{ audioMeta.audiName }}</small>
-        <br><br>
+
+        <br />
 
         <!-- Cut audio player -->
-        <audio :src="audioSrc" controls style="width: 100%"></audio>
+        <audio ref="mainAudio" :src="audioSrc" controls style="width: 100%"></audio>
 
         <n-collapse>
             <n-collapse-item title="Double Check Audio" name="1">
+                <n-space>
+
+                    <n-tag v-if="Math.abs((endTime - startTime) - duration.toFixed()) >= 3" type="error">
+                        Error in the length
+                    </n-tag>
+                    <n-tag v-if="Math.abs((endTime - startTime) - duration.toFixed()) < 3" type="info">
+                        Length Matched Correctly
+                    </n-tag>
+                </n-space>
+
+                <p>{{ " time gap :" + formatTime(endTime - startTime) + ", length " + formatTime(duration.toFixed()) }}
+                </p>
+
                 <audio ref="cutAudioRef" :src="audioFullSrc" controls style="width: 100%" @timeupdate="onTimeUpdate"
-                    @loadedmetadata="onLoadedMetadata"></audio>
+                    @loadedmetadata="onLoadedMetadata" @canplaythrough="onCanPlay"></audio>
             </n-collapse-item>
         </n-collapse>
 
@@ -44,6 +58,7 @@ const props = defineProps({
 })
 
 const cutAudioRef = ref(null)
+const mainAudio = ref(null)
 
 // 1. Parse start/end times from audiName
 function parseTime(tag) {
@@ -53,13 +68,28 @@ function parseTime(tag) {
     return hh * 3600 + mm * 60 + ss
 }
 
-const startTime = computed(() => parseTime('S'))
-const endTime = computed(() => parseTime('E'))
+const startTime = ref(computed(() => parseTime('S')))
+const endTime = ref(computed(() => parseTime('E')))
+
+function formatTime(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
 
 // 2. Seek to start when loaded
+
 const onLoadedMetadata = () => {
     if (cutAudioRef.value) {
         cutAudioRef.value.currentTime = startTime.value
+    }
+}
+
+const duration = ref(0)
+
+function onCanPlay() {
+    if (mainAudio.value?.duration > 0) {
+        duration.value = mainAudio.value.duration
     }
 }
 

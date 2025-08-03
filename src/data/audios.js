@@ -57,7 +57,7 @@ export const audios = {
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD057/[C3]ANICHCHA DUKKA ANATHTHA NIWAREDIWA WATAHAGANNA 10-7-2010.mp3"
     },
     kama_ugula: {
-        src: "CD106/CD057/kama_ugula-CD057-20-S00-21-47-E00-23-40.MP3",
+        src: "CD106/CD057/kama_ugula-CD057-20-S00-21-47-E00-22-43.MP3",
         sinhalaCaption: "කාම උගුල",
         paliCaption: "කාම උහගුල",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD057/[C3]ANICHCHA DUKKA ANATHTHA NIWAREDIWA WATAHAGANNA 10-7-2010.mp3"
