@@ -129,7 +129,7 @@ export const audios = {
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD090/06_Anichcha Vatahaaganimata.mp3"
     },
 
-    //new
+
     hethu_bhanga: {
         src: "CD106/CD048/hethu_bhanga-CD048-31-S00-00-00-E00-16-27.MP3",
         sinhalaCaption: "හේතු පටිච්ච සම්භූත",
@@ -172,14 +172,28 @@ export const audios = {
         sinhalaCaption: "බාහිරානිච්ච සූත්‍ර පටිනිද්දේස",
         paliCaption: "බාහිරානිච්ච සූත්‍ර පටිනිද්දේස",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD070/[B6]BAHIRA%20ANICHCHA%20SUTHTHRAYA%20PAHEDILI%20KIREMA%2018-6-2011.mp3"
+    },
+    //new
+    widinnata_duka: {
+        src: "CD106/CD083/widinnata_duka-CD083-18-S00-00-51-E00-12-04.MP3",
+        sinhalaCaption: "විඳින්නාට දුක පැනවීම",
+        paliCaption: "වේදනා දුක්ඛ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD083/[18]Lokayen%20Sanaseemak%20Labemata%20Kalauthu%20Deya%2018-7-2012[1].mp3"
+    },
+
+    anichche_dukka_asara: {
+        src: "CD106/CD083/anichche_dukka-CD083-18-S00-15-38-E00-18-41.MP3",
+        sinhalaCaption: "අනිච්චේ දුක්ඛ අසාර සඤ්ඤා",
+        paliCaption: "අනිච්චේ දුක්ඛ අසාර සඤ්ඤා",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD083/[18]Lokayen%20Sanaseemak%20Labemata%20Kalauthu%20Deya%2018-7-2012[1].mp3"
+    },
+
+    soka_paridewa_dukka_domanassa_upayasa_niruththi: {
+        src: "CD106/CD086/soka_paridewa_dukka_domanassa_upayasa_niruththi-CD086-18-S00-00-00-E00-02-38.MP3",
+        sinhalaCaption: "සෝක පරිදේව දුක්ඛ දෝමනස්ස උපායාස",
+        paliCaption: "සෝක පරිදේව දුක්ඛ දෝමනස්ස උපායාස",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD086/18_soka_parideva_dukka_domanassa_nirukthi.mp3"
     }
-
-
-
-
-
-
-
 
 
 
