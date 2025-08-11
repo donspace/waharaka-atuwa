@@ -173,7 +173,7 @@ export const audios = {
         paliCaption: "බාහිරානිච්ච සූත්‍ර පටිනිද්දේස",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD070/[B6]BAHIRA%20ANICHCHA%20SUTHTHRAYA%20PAHEDILI%20KIREMA%2018-6-2011.mp3"
     },
-    //new
+
     widinnata_duka: {
         src: "CD106/CD083/widinnata_duka-CD083-18-S00-00-51-E00-12-04.MP3",
         sinhalaCaption: "විඳින්නාට දුක පැනවීම",
@@ -193,7 +193,114 @@ export const audios = {
         sinhalaCaption: "සෝක පරිදේව දුක්ඛ දෝමනස්ස උපායාස",
         paliCaption: "සෝක පරිදේව දුක්ඛ දෝමනස්ස උපායාස",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD086/18_soka_parideva_dukka_domanassa_nirukthi.mp3"
+    },
+
+    thanathuru_anichcha: {
+        src: "CDSadahamSakachcha/4/thanathuru_anichcha-CDSS4-30-S00-00-00-E00-14-40.MP3",
+        sinhalaCaption: "ලාභ කීර්ති පෙලීම",
+        paliCaption: "ලාභ කීර්ති පෙලීම",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/Sadaham-Sakachchaa-04/24.05.nolabeddi-anichcha-mathak-weema.mp3"
+    },
+
+    thilakkana_sagna_sambandaya: {
+        src: "CD106/CD097/thilakkana_sagna_sambandaya-CD097-03-S00-00-00-E00-23-06.MP3",
+        sinhalaCaption: "තිලකුණු සඤ්ඤා සම්බන්ධය",
+        paliCaption: "තිලකුණු සඤ්ඤා සම්බන්ධය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD097/[03]2014-08-02-003-Anichcha.Anichche.Dukkha..Saha.Dukke.Anaththa.Sanyaawa.mp3"
+    },
+
+    sathwaya_peleem_pidaki_karmasthana_vivarana: {
+        src: "CD106/CD097/sathwaya_peleem_pidaki_karmasthana_vivarana-CD097-22-S00-00-16-E00-26-21.MP3",
+        sinhalaCaption: "සත්වයා පෙලීම් පිඩකි",
+        paliCaption: "සත්වයා පෙලීම් පිඩකි",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD097/[22]2014-8-10-Sathwayaa.Peleem.Pidaki.Baya.Pidaki.Jaramarana.Pidaki.Yannehi.Arthaya.mp3"
+    },
+
+    asuba_pilikula: {
+        src: "CD106/CD097/asuba_pilikula-CD097-22-S00-19-36-E00-23-51.MP3",
+        sinhalaCaption: "අසුභය",
+        paliCaption: "අසුභය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD097/[22]2014-8-10-Sathwayaa.Peleem.Pidaki.Baya.Pidaki.Jaramarana.Pidaki.Yannehi.Arthaya.mp3"
+    },
+
+    anantharika_samadhi_nirukthi: {
+        src: "CD106/CD097/anantharika_samadhi_nirukthi-CD097-22-S00-23-26-E00-25-17.MP3",
+        sinhalaCaption: "ආනන්තරික සමාධි",
+        paliCaption: "ආනන්තරික සමාධි",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD097/[22]2014-8-10-Sathwayaa.Peleem.Pidaki.Baya.Pidaki.Jaramarana.Pidaki.Yannehi.Arthaya.mp3"
+    },
+    //new
+    indriya_haya_nirukthi: {
+        src: "CD106/CD092/indriya_haya_nirukthi-CD092-21-S00-07-00-E00-18-40.MP3",
+        sinhalaCaption: "ඉන්ද්‍රිය හය නිරුක්ති",
+        paliCaption: "ඉන්ද්‍රිය හය නිරුක්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD092/21 Asa Pilibadava Chathurarya Sathyata Dama Balana Akaraya 13-11-2012.mp3"
+    },
+
+    nathiweema_nirodha: {
+        src: "CD106/CD092/nathiweema_nirodha-CD092-21-S00-18-07-E00-32-11.MP3",
+        sinhalaCaption: "නැතිවීම හා නිරෝධය",
+        paliCaption: "නැතිවීම හා නිරෝධය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD092/21 Asa Pilibadava Chathurarya Sathyata Dama Balana Akaraya 13-11-2012.mp3"
+    },
+
+    patisandi_nirodhaya: {
+        src: "CD106/CD092/patisandi_nirodhaya-CD092-21-S00-32-12-E00-53-53.MP3",
+        sinhalaCaption: "පටිසංදි නිරෝධය",
+        paliCaption: "පටිසංදි නිරෝධය",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD092/21 Asa Pilibadava Chathurarya Sathyata Dama Balana Akaraya 13-11-2012.mp3"
+    },
+
+    namarupa_nanaththa: {
+        src: "CD106/CD038/namarupa_nanaththa-CD038-19-S00-00-00-E00-10-40.MP3",
+        sinhalaCaption: "නාමරූප නානාත්වය",
+        paliCaption: "නාමරූප නානත්ත",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD038/[O5]26-12-2008[2]NAMA%20RUPA-WIGGRAYA-edit.mp3"
+    },
+
+    ichcha_nisi: {
+        src: "CD106/CD057/ichcha_nisi-CD057-04-S00-00-28-E00-03-10.MP3",
+        sinhalaCaption: "අනිසි වන්නේ ඇයි",
+        paliCaption: "අනිසි වන්නේ ඇයි",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD057/[A5]ANICHCHA SWABAWAYA GENA 5-6-2010.mp3"
+    },
+
+    dammachakka_anichcha: {
+        src: "CD106/CD057/dammachakka_anichcha-CD057-04-S00-03-10-E00-17-25.MP3",
+        sinhalaCaption: "දම්සක් පැවතුම් සූත්‍රයේ අනිච්ච",
+        paliCaption: "ධම්මචක්ඛ අනිච්ච",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD057/[A5]ANICHCHA SWABAWAYA GENA 5-6-2010.mp3"
+    },
+
+    anisi_nisi: {
+        src: "CD106/CD052/anisi_nisi-CD052-02-S00-00-00-E00-08-00.MP3",
+        sinhalaCaption: "නිසි අනිසි",
+        paliCaption: "නිසි අනිසි",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD052/[A2]MULIKA%20WASAYEN%20DENAGATHA%20UTHU%20DEYA%202-1-2010.mp3"
+    },
+
+    thadanga_vishkambana_samuchcheda_samatha: {
+        src: "CDPraknaVimuththa/1/thadanga_vishkambana_samuchcheda_samatha-CDPV1-03-S00-21-38-E00-23-57.MP3",
+        sinhalaCaption: "තදංග විශ්කම්භණ සමුච්ඡේද සමථ",
+        paliCaption: "තදංග විශ්කම්භණ සමුච්ඡේද සමථ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/003-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%201.mp3"
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

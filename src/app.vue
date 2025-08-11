@@ -166,7 +166,7 @@ function renderLabel(option) {
 }
 
 .player {
-    width: 150%;
+    width: 1500px;
     padding-left: 20px;
     border-left: 1px solid #ccc;
 }

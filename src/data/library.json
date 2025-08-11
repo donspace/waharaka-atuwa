@@ -2,11 +2,11 @@
   "සද්ධම්මවිවරණපටිනිද්දේස": {
     "තිලකුණුපටිනිද්දේස": {
       "අනිච්චපටිනිද්දේස": {
-        "පෙලීම":["maanasika_peleema_avidyawa" ,"widinnata_duka"],
+        "පෙලීම":["maanasika_peleema_avidyawa" ,"widinnata_duka","thanathuru_anichcha"],
         "උප්පාදවය":["hethu_bhanga"],
         "ඛය":["khaya","khaya_damma_patichchasamuppada"],
-        "කැමතිසේනොවන":["jathi_anichcha","anichcha_anichchha_nanaththa"],
-        "අනිසි":[],
+        "කැමතිසේනොවන":["jathi_anichcha","anichcha_anichchha_nanaththa","dammachakka_anichcha"],
+        "අනිසි":["ichcha_nisi" ,"anisi_nisi"],
         "පටිච්චසමුප්පාද":[],
         "අවශේෂානිච්චපටිනිද්දේස":[],
         "අනිච්චාවරණපටිනිද්දේස":["anichchapada","nocheichcha"]
@@ -30,14 +30,20 @@
         "අවශේෂානත්තපටිනිද්දේස":[],
         "අනත්තාවරණපටිනිද්දේස":[]
       },
-      "තිලකුණු": ["salayathanabhavana","dammachakka_thilakkana","anichche_dukka_asara"]
+      "තිලකුණු": [
+        "salayathanabhavana",
+        "dammachakka_thilakkana",
+        "anichche_dukka_asara",
+        "thilakkana_sagna_sambandaya",
+        "asuba_pilikula"
+      ]
 
     },
     "සිව්අරිසස්පටිනිද්දෙස": {
       "දුක්ඛසච්ච": ["jathi_jara_marana_duka"],
-      "දුක්ඛසච්චවිභේදන": ["duka_dukka_sathya","dukka_yamakaya"],
+      "දුක්ඛ දුක්ඛසච්ච අඤ්ඤතා": ["duka_dukka_sathya","dukka_yamakaya"],
       "දුක්ඛසමුදය": [],
-      "නිරෝධසච්ච": [],
+      "නිරෝධසච්ච": ["nathiweema_nirodha"],
       "මග්ගසච්ච": [],
       "සිව්අරිසස්දේසනා": ["sathya_kruthya_knana"]
 
@@ -50,6 +56,21 @@
       "අස්සාදාදීනවනිස්සරණදෙසුම්":[],
       "උදයංගමඅත්තංගමදෙසුම්":[]
 
+    },
+    "ආහාරපටිනිද්දේස":[],
+
+    "පදවිවරණ": {
+      "ඵස්ස සම්ඵස්ස අඤ්ඤතා":[],
+      "ඉන්ද්‍රිය ආයතන අඤ්ඤතා":[],
+      "කන්ධ උපාදානක්ඛන්ධ අඤ්ඤතා":[],
+      "ලොකියඣාන ලෝකුත්තරඣාන අඤ්ඤතා ":[],
+      "වත සීල අඤ්ඤතා":[],
+      "විතක්කවිචාර සවිතක්කසවිචාර අඤ්ඤතා":[],
+      "විනය විනය නීති අඤ්ඤතා":[],
+      "කර්ම ක්‍රියා අඤ්ඤතා":[],
+      "මානසං හදයං අඤ්ඤතා":[],
+      "සංඛාර අභිසංඛාර අඤ්ඤතා":[],
+      "සමථ ඣාන අඤ්ඤතා":["thadanga_vishkambana_samuchcheda_samatha"]
     }
     
   },
@@ -141,7 +162,7 @@
       "අවිජ්ජා":[],
       "සංඛාර":[],
       "විඤ්ඤාණ":[],
-      "නාමරූප":[],
+      "නාමරූප":["namarupa_nanaththa"],
       "සලායතන":["avidya_ayathana"],
       "ඵස්ස":[],
       "වේදනා":["suka_vedana_pachchaya_thanha"],
@@ -156,9 +177,8 @@
     "කුසලමූලපටිච්චසමුප්පාදය":["damma_jatha"],
     "අව්‍යාකතපටිච්චසමුප්පාදය":[],
     "ඉදපච්චයතාපටිච්චසමුප්පාදය":[],
-    "චුතිපටිසන්ධිපටිච්චසමුප්පාදය":[],
-    "අවශේෂපටිච්චසමුප්පාදදේශනා":[],
-    "පටිච්චසමුප්පාද":["mula_mada_aga_dharmaya"]
+    "චුතිපටිසන්ධිපටිච්චසමුප්පාදය":["patisandi_nirodhaya"],
+    "අවශේෂපටිච්චසමුප්පාදදේශනා":["mula_mada_aga_dharmaya"]
   },
   "විස්තර දේශණා":[
     "anichcha_visthara"
