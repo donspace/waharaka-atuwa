@@ -3,9 +3,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
+
   base: '/waharaka-atuwa/',
   build: {
     outDir: 'docs'            // output folder set to docs
   },
   plugins: [vue()],
+
 })

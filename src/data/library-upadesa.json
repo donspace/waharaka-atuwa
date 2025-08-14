@@ -19,7 +19,12 @@
       "ichcha_ichchha_anichcha_anichchha",
       "soka_paridewa_dukka_domanassa_upayasa_niruththi",
       "anantharika_samadhi_nirukthi",
-      "indriya_haya_nirukthi"
+      "indriya_haya_nirukthi",
+      "bhikkhu_nirukthi",
+      "uppada_uppanna_samuppanna_paripunna_nirukthi",
+      "pilisamupa_niruththi",
+      "nibbana_nirukthi",
+      "kalyana_pruthakjana"
     ]
   },
   "පරවාද ඛණ්ඩන":{
@@ -28,7 +33,8 @@
     "අනිච්ච අනිත්‍ය":{},
     "අනත්ත අනාත්ම":{},
     "ස්කන්ධ දුක්ඛ":{},
-    "අවසේස පරවාද ඛණ්ඩන":{}
+    "මාංස අනුභවය":{},
+    "අවසේස පරවාද ඛණ්ඩන":["uppada_thithi_banga"]
   },
   "උපදේස" :{
 

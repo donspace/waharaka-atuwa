@@ -229,7 +229,7 @@ export const audios = {
         paliCaption: "ආනන්තරික සමාධි",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD097/[22]2014-8-10-Sathwayaa.Peleem.Pidaki.Baya.Pidaki.Jaramarana.Pidaki.Yannehi.Arthaya.mp3"
     },
-    //new
+
     indriya_haya_nirukthi: {
         src: "CD106/CD092/indriya_haya_nirukthi-CD092-21-S00-07-00-E00-18-40.MP3",
         sinhalaCaption: "ඉන්ද්‍රිය හය නිරුක්ති",
@@ -284,24 +284,127 @@ export const audios = {
         sinhalaCaption: "තදංග විශ්කම්භණ සමුච්ඡේද සමථ",
         paliCaption: "තදංග විශ්කම්භණ සමුච්ඡේද සමථ",
         fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/003-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%201.mp3"
+    },
+
+    anichcha_kamathi_se_nowe: {
+        src: "CDPraknaVimuththa/1/anichcha_kamathi_se_nowe-CDPV1-03-S00-35-27-E00-45-10.MP3",
+        sinhalaCaption: "අනිච්ච හා ලෝක ධර්මතාව",
+        paliCaption: "අනිච්ච හා ලෝක ධර්මතාව",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/003-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%201.mp3"
+    },
+
+    dukka_samudaya_dukada: {
+        src: "CDPraknaVimuththa/1/dukka_samudaya_dukada-CDPV1-03-S00-34-20-E00-35-12.MP3",
+        sinhalaCaption: "දුකට හේතුව දුක නොවේ",
+        paliCaption: "දුකට හේතුව දුක නොවේ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/003-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%201.mp3"
+    },
+
+    bhikkhu_nirukthi: {
+        src: "CDPraknaVimuththa/1/bhikkhu_nirukthi-CDPV1-04-S00-07-12-E00-09-57.MP3",
+        sinhalaCaption: "භික්ඛු නිරුක්ති",
+        paliCaption: "භික්ඛු නිරුක්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/004-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%202.mp3"
+    },
+
+    assasa_daham_passasa_daham: {
+        src: "CDPraknaVimuththa/1/assasa_daham_passasa_daham-CDPV1-04-S00-10-55-E00-12-18.MP3",
+        sinhalaCaption: "අස්සාස ධම්ම පස්සාස ධම්ම",
+        paliCaption: "අස්සාස ධම්ම පස්සාස ධම්ම",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/004-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%202.mp3"
+    },
+    // new
+
+    rodha_nirodha: {
+        src: "CDPraknaVimuththa/1/rodha_nirodha-CDPV1-04-S00-12-19-E00-14-49.MP3",
+        sinhalaCaption: "රෝධ නිරෝධ",
+        paliCaption: "රෝධ නිරෝධ",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/004-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%202.mp3"
+    },
+
+    karmasthana_anapana: {
+        src: "CDPraknaVimuththa/1/karmasthana_anapana-CDPV1-04-S00-14-49-E00-15-50.MP3",
+        sinhalaCaption: "ආනාපාන කර්මස්ථාන",
+        paliCaption: "ආනාපාන කර්මස්ථාන",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/004-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%202.mp3"
+    },
+
+    indriya_ayathana_upama: {
+        src: "CDPraknaVimuththa/1/indriya_ayathana_upama-CDPV1-04-S00-16-40-E00-22-00.MP3",
+        sinhalaCaption: "ඉන්ද්‍රිය ආයතන උපමා",
+        paliCaption: "ඉන්ද්‍රිය ආයතන උපමා",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/004-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%202.mp3"
+    },
+
+    uppada_uppanna_samuppanna_paripunna_nirukthi: {
+        src: "CD106/CD046/uppada_uppanna_samuppanna_paripunna_nirukthi-CD046-32-S00-00-00-E00-01-19.MP3",
+        sinhalaCaption: "උප්පාද සමුප්පාද පරිපුන්න නිරුක්ති",
+        paliCaption: "උප්පාද සමුප්පාද උප්පන්න සමුප්පන්න පරිපුන්න නිරුක්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD046/[D5]UTHPADA..SAMUPPANNA.ADE%20WISTHARA.mp3"
+    },
+
+    uppada_thithi_banga: {
+        src: "CD106/CD089/uppada_thithi_banga-CD089-33-S00-00-00-E00-09-22.MP3",
+        sinhalaCaption: "උප්පාද තිථි භංග",
+        paliCaption: "උප්පාද තිථි භංග",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD089/32-Uppada%20Tithi%20Banga.mp3"
+    },
+
+    uppada_waya_patichchasamuppada_anichcha: {
+        src: "CD106/CD095/uppada_waya_patichchasamuppada_anichcha-CD095-05-S00-00-00-E00-15-48.MP3",
+        sinhalaCaption: "උප්පාදවය පටිච්චසමුප්පාද අනිච්ච",
+        paliCaption: "උප්පාද වය පටිච්චසමුප්පාද අනිච්ච",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD095/005%20Udayavya,%20Anichcha.mp3"
+    },
+
+    aswadaye_ha_kaye_anichcha: {
+        src: "CD106/CD095/aswadaye_ha_kaye_anichcha-CD095-05-S00-15-48-E00-26-11.MP3",
+        sinhalaCaption: "ආස්වාදය අනිච්ච හා නිවන",
+        paliCaption: "ආස්වාදයේ අනිච්ච හා නිවන",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD095/005%20Udayavya,%20Anichcha.mp3"
+    },
+
+    pilisamupa_niruththi: {
+        src: "CD106/CD095/pilisamupa_niruththi-CD095-05-S00-29-31-E00-31-26.MP3",
+        sinhalaCaption: "පිළිසමුපා නිරුත්ති",
+        paliCaption: "පිළිසමුපා නිරුත්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD095/005%20Udayavya,%20Anichcha.mp3"
+    },
+
+    sathara_pera_nimithi_anichcha: {
+        src: "CD106/CD095/sathara_pera_nimithi_anichcha-CD095-05-S00-31-28-E00-36-42.MP3",
+        sinhalaCaption: "සතර පෙර නිමිති අනිච්ච",
+        paliCaption: "සතර පෙර නිමිති අනිච්ච",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/CD095/005%20Udayavya,%20Anichcha.mp3"
+    },
+
+    pala_marga_margastha: {
+        src: "CDPraknaVimuththa/1/pala_marga_margastha-CDPV1-05-S00-11-07-E00-13-42.MP3",
+        sinhalaCaption: "මාර්ග මාර්ගස්ථ ඵල",
+        paliCaption: "මාර්ග මාර්ගස්ථ ඵල",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/005-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%203.mp3"
+    },
+
+    bhava_priya_anichcha: {
+        src: "CDPraknaVimuththa/1/bhava_priya_anichcha-CDPV1-05-S00-13-42-E00-25-42.MP3",
+        sinhalaCaption: "අස්සාද ඇම",
+        paliCaption: "අස්සාද ඇම",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/005-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%203.mp3"
+    },
+
+    nibbana_nirukthi: {
+        src: "CDPraknaVimuththa/1/nibbana_nirukthi-CDPV1-05-S00-32-30-E00-37-00.MP3",
+        sinhalaCaption: "නිබ්බාන නිරුක්ති",
+        paliCaption: "නිබ්බාන නිරුක්ති",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/005-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%203.mp3"
+    },
+
+    kalyana_pruthakjana: {
+        src: "CDPraknaVimuththa/1/kalyana_pruthakjana-CDPV1-05-S00-38-18-E00-42-26.MP3",
+        sinhalaCaption: "කළ්‍යාණ පෘතක්ජන",
+        paliCaption: "කළ්‍යාණ පෘතක්ජන",
+        fullAudioSrc: "https://storage.googleapis.com/www.waharaka.com/cds/PragnaVimukthi1/005-GIHI%20WATAKA%20SITA%20NIWAN%20DAKIMA%20-%203.mp3"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
